@@ -1,0 +1,177 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+.tepa_chap {
+    float: left;
+    margin-left: 30px;
+}
+
+.tepa_ong {
+    float: right;
+    margin-right: 30px;
+    cursor: pointer;
+}
+
+samp {
+    color: rgb(55, 243, 55);
+}
+
+.Welcome {
+    padding-top: 250px;
+    padding-left: 350px;
+    color: rgb(55, 243, 55);
+}
+
+.h1 {
+    padding-left: 350px;
+    color: #fff;
+    font-size: 70px;
+    margin-top: 10px;
+}
+
+.button1 {
+    margin-top: 20px;
+    background-color: transparent;
+    color: #fff;
+    border: 2px solid #fff;
+    margin-left: 355px;
+    padding: 5px 30px;
+    cursor: pointer;
+}
+
+.button2 {
+    margin-top: 20px;
+    background-color: transparent;
+    color: #fff;
+    border: 2px solid #fff;
+    margin-left: 15px;
+    padding: 5px 30px;
+    cursor: pointer;
+}
+
+.button1 h2, .button2 h2 {
+    margin: 10px 0;
+    font-size: 16px;
+}
+
+.button1:hover, .button2:hover {
+    background-color: #fff;
+    color: black;
+}
+
+.birinchi_bolim {
+    background-color: black;
+    color: #fff;
+    padding-bottom: 170px;
+    padding-top: 30px;
+    clear: both;
+    overflow: hidden;
+}
+
+.ikinchi_bolim {
+    background-color: rgb(55, 243, 55);
+    padding-top: 80px;
+    padding-bottom: 120px;
+    color: #111;
+}
+
+.senter {
+    text-align: center;
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.kichik_sarlavha {
+    font-size: 18px;
+    color: #111;
+    margin-bottom: 5px;
+}
+
+.h2 {
+    font-size: 80px;
+    margin: 10px 0 30px 0;
+}
+
+.about_text {
+    font-size: 20px;
+    color: #222;
+    margin-bottom: 60px;
+}
+
+.raqamlar {
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    padding-top: 40px;
+    border-top: 2px solid rgba(0, 0, 0, 0.15);
+}
+
+.stat_box {
+    text-align: center;
+    flex: 1;
+    border-right: 2px solid rgba(0, 0, 0, 0.15);
+}
+
+.stat_box:last-child {
+    border-right: none;
+}
+
+.Awards {
+    display: block;
+    font-size: 70px;
+    color: black;
+}
+
+.Received {
+    display: block;
+    font-size: 18px;
+    color: #222;
+    margin-top: 8px;
+}
+
+.uchinchi_bolim {
+    background-color: #111;
+    color: #fff;
+    padding-top: 90px;
+    padding-bottom: 120px;
+}
+
+.kichik_sarlavha_oq {
+    font-size: 18px;
+    color: rgb(55, 243, 55);
+    margin-bottom: 10px;
+}
+
+.h2_oq {
+    font-size: 45px;
+    color: #fff;
+    margin: 0 auto 60px auto;
+}
+
+.xizmatlar_grid {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.xizmat_karta {
+    flex: 1 1 45%;
+    box-sizing: border-box;
+    padding: 10px 20px;
+}
+
+.xizmat_nomi {
+    font-size: 24px;
+    color: #fff;
+    margin-bottom: 12px;
+}
+
+.xizmat_matn {
+    font-size: 16px;
+    color: #999;
+}
